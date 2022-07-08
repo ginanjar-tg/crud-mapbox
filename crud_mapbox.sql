@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 07, 2022 at 05:58 PM
+-- Generation Time: Jul 08, 2022 at 10:40 AM
 -- Server version: 10.4.20-MariaDB
 -- PHP Version: 8.0.8
 
@@ -29,7 +29,7 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `lokasi` (
   `no` varchar(50) NOT NULL,
-  `alamat` varchar(50) NOT NULL,
+  `alamat` varchar(200) NOT NULL,
   `latitude` varchar(50) NOT NULL,
   `longitude` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
@@ -39,7 +39,7 @@ CREATE TABLE `lokasi` (
 --
 
 INSERT INTO `lokasi` (`no`, `alamat`, `latitude`, `longitude`) VALUES
-('1', 'Kebun Binatang', '-6.891342002981162', '107.61055178833033');
+('1', 'Bandung Zoo', '-6.889570620100756', '107.60750004232989');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
