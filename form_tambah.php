@@ -26,7 +26,7 @@
             <div id="map" class="w-full h-2/5 top-0 rounded"></div>
             <p class="font-bold">➡ Beri nomor data beserta nama lokasi untuk ditambahkan</p>
             <div id="formLokasi" class="grid-none md:grid md:grid-cols-3 md:space-x-5 space-x-none">
-                <div class>
+                <div>
                     <p>No : </p>
                     <div>
                         <input type="text" name="no" id="no" class="text-black h-9 rounded w-full" />
